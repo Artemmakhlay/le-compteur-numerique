@@ -9,5 +9,4 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     nombre_de_gens += 0 - 1
     basic.showNumber(nombre_de_gens)
-    nombre_de_gens += 1
 })
