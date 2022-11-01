@@ -9,9 +9,12 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     nombre_de_gens += -1
+    if (nombre_de_gens <= 0) {
+        nombre_de_gens = 0
+    }
 })
 let nombre_de_gens = 0
 basic.showNumber(0)
 basic.forever(function () {
-    basic.showNumber(nombre_de_gens)
+	
 })
